@@ -11,6 +11,8 @@ import Booking from "@/components/booking"
 import Footer from "@/components/footer"
 import ScrollToTop from "@/components/scroll-to-top"
 import BubbleEffect from "@/components/bubble-effect"
+import Preloader from "@/components/preloader"
+import DiscountPopup from "@/components/discount-popup"
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
@@ -23,6 +25,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black">
+      <Preloader />
+      <DiscountPopup />
       <BubbleEffect />
       <Navbar />
       <Hero />

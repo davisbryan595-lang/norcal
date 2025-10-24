@@ -35,8 +35,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="#" className="flex items-center gap-2 group">
-            <div className="relative w-10 h-10">
+          <Link href="#home" className="flex items-center group">
+            <div className="relative w-12 h-12">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/norcal-k6c43jOYdf3E7rZrdljTBtnqcvVCZm.jpg"
                 alt="Nor-Cal Auto Care"
@@ -44,7 +44,6 @@ export default function Navbar() {
                 className="object-contain"
               />
             </div>
-            <span className="text-xl font-bold font-poppins hidden sm:inline gradient-text">NOR-CAL</span>
           </Link>
 
           {/* Desktop Navigation */}
