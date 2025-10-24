@@ -36,7 +36,7 @@ export default function DiscountPopup() {
 
   return (
     <Dialog open={open} onOpenChange={(v) => (v ? setOpen(true) : handleClose())}>
-      <DialogContent className="border border-[#00ff00]">
+      <DialogContent className="glass-effect-dark border border-[#00ff00] text-white">
         <DialogHeader>
           <DialogTitle className="font-poppins text-2xl">
             <span className="gradient-text">Limited-Time Discount</span>
